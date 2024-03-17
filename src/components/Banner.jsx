@@ -1,4 +1,4 @@
-import { useStat, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
@@ -10,13 +10,19 @@ function Banner() {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
+    console.log("---------------------------------------")
+    console.log("1 we start")
+
 
     useEffect(() => {
         let ticker = setInterval(() => {
             tick();
+            console.log("2 how often")
         }, delta)
+        console.log(delta)
 
-        return () => { clearInterval(ticker) };
+        return () => { clearInterval(ticker)
+        console.log("4 I run after") };
     }, [text])
 
     const tick = () => {
@@ -30,7 +36,7 @@ function Banner() {
             setDelta(prevDelta => prevDelta / 2)
         }
 
-        if (!isDeleting && updatedText === fullText) {
+        if (!isDeleting && (updatedText === fullText)) {
             setIsDeleting(true)
             setDelta(period)
         } else if (isDeleting && updatedText === '') {
