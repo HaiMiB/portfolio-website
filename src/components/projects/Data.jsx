@@ -1,5 +1,5 @@
-import Project1 from "../../assets/img/project1.webp";
-import Project2 from "../../assets/img/project2.webp";
+import Project1 from "../../assets/img/jap_memory.png";
+import Project2 from "../../assets/img/website_portfolio.png";
 import Project3 from "../../assets/img/project3.webp";
 
 
@@ -7,20 +7,16 @@ export const projectsData = [
     {
         id: 1,
         image: Project1,
-        title: "Project 1",
-        category: "A",
+        title: "Japanese Memory Game",
+        category: "Game",
+        tools: ["Javascript", "HTML", "CSS", "Flexbox", "Transform 3d"]
     },
     {
         id: 2,
         image: Project2,
-        title: "Project 2",
-        category: "B",
-    },
-    {
-        id: 3,
-        image: Project3,
-        title: "Project 3",
-        category: "C",
+        title: "This Website Portfolio",
+        category: "Website",
+        tools: ["React", "useState", "Javascript", "CSS"],
     },
 ];
 
@@ -29,12 +25,9 @@ export const projectsNav = [
         name: "All",
     },
     {
-        name: "A",
+        name: "Game",
     },
     {
-        name: "B",
-    },
-    {
-        name: "C",
+        name: "Website",
     },
 ];

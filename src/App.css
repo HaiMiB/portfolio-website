@@ -12,9 +12,11 @@
     --title-color-dark: hsl(7, 57%, 54%);
     --text-color: hsl(var(--hue), var(--sat), 46%);
     --body-color: hsl(var(--hue), var(--sat), 98%);
-    --text-color-white: hsl(0,0%,100%);
+    --text-color-white: hsl(0, 0%, 100%);
+    --text-color-darkgrey: hsl(0, 0%, 24%);
+    --text-color-lightgrey: hsl(0, 3%, 61%);
     --container-color: #fff;
-    --bg-color-red:hsl(7, 57%, 54%);
+    --bg-color-red: hsl(7, 57%, 54%);
     /* STATIC TYPOGRAPHY */
     --body-font: "Poppins", sans-serif;
     --big-font-size: 3.5rem;
@@ -125,9 +127,10 @@ img {
     text-align: center;
 }
 
-.section__text__white{
+.section__text__white {
     color: var(--text-color-white);
 }
+
 /* LAYOUT */
 .container {
     max-width: 968px;
