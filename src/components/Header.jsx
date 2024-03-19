@@ -16,7 +16,7 @@ const Header = () => {
     return(
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">Portfolio</a>
+                <a href="index.html" className="nav__logo">Hai Mi Bui</a>
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
                         <li className="nav__item">
@@ -38,15 +38,15 @@ const Header = () => {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#services" onClick={() => setActiveNav("#services")} 
-                            className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}>
-                                <HiOutlineClipboardList className="nav__icon"/>Services
-                            </a>
-                        </li>
-                        <li className="nav__item">
                             <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} 
                             className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}>
                                 <HiOutlinePhotograph className="nav__icon"/>Projects
+                            </a>
+                        </li>
+                        <li className="nav__item">
+                            <a href="#accomplishments" onClick={() => setActiveNav("#accomplishments")} 
+                            className={activeNav === "#accomplishments" ? "nav__link active-link" : "nav__link"}>
+                                <HiOutlinePhotograph className="nav__icon"/>Awards
                             </a>
                         </li>
                         <li className="nav__item">

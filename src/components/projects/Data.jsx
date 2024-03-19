@@ -9,7 +9,8 @@ export const projectsData = [
         image: Project1,
         title: "Japanese Memory Game",
         category: "Game",
-        tools: ["Javascript", "HTML", "CSS", "Flexbox", "Transform 3d"]
+        tools: ["Javascript", "HTML", "CSS", "Flexbox", "Transform 3d"],
+        link: "https://hai-mi.de/jap_memory.html"
     },
     {
         id: 2,
@@ -17,6 +18,7 @@ export const projectsData = [
         title: "This Website Portfolio",
         category: "Website",
         tools: ["React", "useState", "Javascript", "CSS"],
+        link: "#home"
     },
 ];
 

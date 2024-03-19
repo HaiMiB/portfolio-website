@@ -1,0 +1,122 @@
+.accomplishments{
+    background-color: var(--bg-color-red);
+}
+
+.accomplishments__container {
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+.accomplishments__content {
+    background-color: var(--container-color);
+    border: 2px solid rgba(255, 255, 255);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+
+.accomplishments__title {
+    font-size: var(--mb-1-5);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+}
+
+.accomplishments__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+}
+
+.accomplishments__group {
+    display: grid;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.accomplishments__data {
+    display: flex;
+    column-gap: 0.5rem;
+    align-items: center;
+  
+}
+
+
+
+.accomplishments svg {
+    font-size: 1.8rem;
+    color: var(--title-color);
+}
+
+.accomplishments__name {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+    
+}
+
+.accomplishments__level {
+    font-size: var(--smaller-font-size);
+}
+
+.accomplishments__info {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem 1rem;
+    
+}
+
+.accomplishments__list{
+    margin: 1rem;
+}
+
+.accomplishments__point{
+    margin: 0;
+}
+.accomplishments__point svg{
+    font-size: 0.5rem;
+    color: var(--text-color-white);   
+
+}
+
+.awards__title {
+    color: var(--text-color-red);
+}
+.interests__title, .interests__name, .interests__level, .interests__info {
+    color: var(--text-color-white);   
+}
+
+.interests__content{
+    background-color: var(--bg-color-red);
+}
+
+
+
+/* BREAK POINTS */
+@media screen and (max-width: 992px) {
+   .accomplishments__container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+   }
+}
+
+@media screen and (max-width: 576px) {
+    .accomplishments__container {
+        grid-template-columns: 1fr;
+    }
+
+    .accomplishments__content {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .accomplishments__box {
+        column-gap: 1.25rem;
+    }
+
+    .accomplishments__name {
+        font-size: var(--small-font-size);
+    }
+}

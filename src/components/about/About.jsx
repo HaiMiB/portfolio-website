@@ -13,12 +13,12 @@ const About = () => {
             <img src={AboutImg} alt="about" className="about__img" />
             <div className="about__data">
                {/*  <Info /> */}
-                <p className="about__description">I am from Czech Republic and have a Vietnamese cultural background.
-
-I am a master student of Computer Science at Goethe University Frankfurt in Frankfurt am Main. After my studies I am planning to stay in Germany and pursue a career in the tech-industry.</p>
+               <div>Hi, I'm Hai Mi</div>
+                <p className="about__description">
+I am a master student of Computer Science at Goethe University Frankfurt. After my studies I am planning to stay in Germany and pursue a career in the tech-industry.</p>
                 <p className="about__description">I like to learn new languages, be it to communicate with people or with a computer. Currently I am learning Japanese.</p>
                 <p className="about__description">In my free time I volunteer in student projects and organize events such as Digital FilmFestival or accompany international students that are new in Frankfurt through a Buddy-Programm.</p>
-                <p className="about__description">I create applications highlighting minimal design and friendly UI/UX interfaces.</p>
+                {/* <p className="about__description">I create applications highlighting minimal design and friendly UI/UX interfaces.</p> */}
                
                
                 {/*-------------- Download CV button ----------------*/}

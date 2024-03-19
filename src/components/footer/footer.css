@@ -6,6 +6,9 @@
 
 .footer__container {
     padding: 2rem 0 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer__title, .footer__link {
@@ -14,7 +17,8 @@
 
 .footer__title {
     text-align: center;
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-1);
+
 }
 
 .footer__link:hover {
@@ -25,7 +29,11 @@
     display: flex;
     justify-content: center;
     column-gap: 1.5rem;
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-0-5);
+}
+
+.footer__mail{
+    font-size: 1.3rem;
 }
 
 .footer__social {
@@ -47,12 +55,33 @@
     background-color: var(--title-color-dark);
 }
 
+.footer__mail-icon svg{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
 .footer__copy {
     display: block;
     margin-top: 4.5rem;
     color: var(--title-color);
     text-align: center;
     font-size: var(--smaller-font-size);
+}
+
+.footer__line{
+    background-color: transparent;
+    border-color: rgba(204, 86, 71, 1);
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-clip: padding-box;
+    min-height: 20px;
+    padding-top: 0px;
+    margin-bottom: var(--mb-1);
+    width: 300px;   
 }
 
 /* BREAK POINTS */

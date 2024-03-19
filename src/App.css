@@ -13,6 +13,7 @@
     --text-color: hsl(var(--hue), var(--sat), 46%);
     --body-color: hsl(var(--hue), var(--sat), 98%);
     --text-color-white: hsl(0, 0%, 100%);
+    --text-color-red: hsl(7, 57%, 54%);
     --text-color-darkgrey: hsl(0, 0%, 24%);
     --text-color-lightgrey: hsl(0, 3%, 61%);
     --container-color: #fff;
@@ -23,7 +24,7 @@
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
+    --normal-font-size: 1.2rem;
     --small-font-size: 0.875rem;
     --smaller-font-size: 0.813rem;
     --smallest-font-size: 0.625rem;

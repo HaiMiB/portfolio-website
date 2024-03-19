@@ -12,7 +12,68 @@ code {
     monospace;
 } */
 
+:root {
+  -header-height: 3rem;
+  /* HSL COLORS */
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  /* --title-color-dark: hsl(var(--hue), var(--sat), 0%); */
+  --title-color-dark: hsl(7, 57%, 54%);
+  --text-color: hsl(var(--hue), var(--sat), 20%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --text-color-white: hsl(0, 0%, 100%);
+  --text-color-red: hsl(7, 57%, 54%);
+  --text-color-darkgrey: hsl(0, 0%, 24%);
+  --text-color-lightgrey: hsl(0, 3%, 61%);
+  --container-color: #fff;
+  --bg-color-red: hsl(7, 57%, 54%);
+  /* STATIC TYPOGRAPHY */
+  --body-font: "Poppins", sans-serif;
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1.2rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --smallest-font-size: 0.625rem;
+  --mb-1-18: 1.18rem;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  /* BOTTOM MARGINS */
+  --mb-0-25: .25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+  /* Z INDEX */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
 
+body,
+button,
+input,
+textarea {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
 
 /* @media (prefers-color-scheme: dark) {
   :root {

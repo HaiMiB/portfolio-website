@@ -10,7 +10,7 @@ const ProjectItems = ({ item }) => {
             <div className="project__tools">
                 {item.tools.map(toolName => <div key={uuid()} className='project__tools__name' >{toolName}</div>)}
             </div>
-            <a href="#" className="project__button">
+            <a href={item.link} className="project__button">
                 Demo <HiOutlineArrowSmRight className="project__button-icon" />
             </a>
         </div>

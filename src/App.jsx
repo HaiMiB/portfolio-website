@@ -11,6 +11,7 @@ import Qualification from './components/qualifications/Qualification';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Portfolio from './components/projects/Portfolio';
+import Accomplishments from './components/accomplishments/Accomplishments';
 
 function App() {
   
@@ -23,11 +24,9 @@ function App() {
       <Skills />
       <Languages />
       <Portfolio />
+      <Accomplishments />
       <Footer />
       <ScrollUp />
-
-      
-
     </div>
   )
 }

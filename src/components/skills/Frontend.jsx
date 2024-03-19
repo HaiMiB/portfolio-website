@@ -26,7 +26,7 @@ const Frontend = () => {
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <span className="skills__name">HMTL, CSS</span>
+                            <span className="skills__name">HTML, CSS</span>
                         </div>
                     </div>
                     <div className="skills__data">
