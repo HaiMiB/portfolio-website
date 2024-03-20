@@ -3,7 +3,7 @@
 }
 
 .skills__container {
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, 0.3fr);
     column-gap: 3rem;
     justify-content: center;
 }

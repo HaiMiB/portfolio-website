@@ -65,6 +65,10 @@
     font-size: var(--small-font-size);
 }
 
+.qualification__calendar-icon{
+    margin-right: 0.3rem;
+}
+
 .qualification__rounder {
     display: inline-block;
     width: 13px;

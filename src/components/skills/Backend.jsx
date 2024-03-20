@@ -38,22 +38,22 @@ const Backend = () => {
                 <div className="skills__group">
                     <div className="skills__data">
                         <div>
-                            <span className="skills__rating"><MdCircle /> <MdCircle /> <MdCircle />   </span>
+                            <span className="skills__rating"><MdCircle /> <MdCircle /> <MdCircle /> <MdOutlineCircle /> <MdOutlineCircle /> </span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <div>
-                            <span className="skills__rating"><MdCircle /> <MdCircle />  </span>
+                            <span className="skills__rating"><MdCircle /> <MdCircle /> <MdOutlineCircle /> <MdOutlineCircle /> <MdOutlineCircle /> </span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <div>
-                            <span className="skills__rating"><MdCircle /> <MdCircle /> </span>
+                            <span className="skills__rating"><MdCircle /> <MdCircle /> <MdOutlineCircle /> <MdOutlineCircle /> <MdOutlineCircle /> </span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <div>
-                            <span className="skills__rating"><MdCircle /> <MdCircle /> <MdCircle /> <MdCircle /> </span>
+                            <span className="skills__rating"><MdCircle /> <MdCircle /> <MdCircle /> <MdCircle /> <MdOutlineCircle /></span>
                         </div>
                     </div>
                 </div>

@@ -76,6 +76,7 @@
     border-radius: 1.5rem;
     margin: 3px;
     border: 1px solid var(--text-color-lightgrey);
+    font-size: var(--small-font-size);
 }
 
 
