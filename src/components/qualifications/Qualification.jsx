@@ -108,7 +108,7 @@ const Qualification = () => {
                                 <span className="qualification__subtitle">Goethe University</span>
                                 <div className="qualification__calendar">
                                     <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    2021-2022
+                                    2022 - 2023
                                 </div>
                             </div>
                         </div>

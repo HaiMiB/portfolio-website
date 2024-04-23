@@ -1,6 +1,6 @@
 import Project1 from "../../assets/img/jap_memory.png";
 import Project2 from "../../assets/img/website_portfolio.png";
-import Project3 from "../../assets/img/project3.webp";
+import Project3 from "../../assets/img/Process_diagramm.png";
 
 
 export const projectsData = [
@@ -20,6 +20,14 @@ export const projectsData = [
         tools: ["React", "useState", "Javascript", "CSS","Responsive Design"],
         link: "#home"
     },
+    {
+        id: 1,
+        image: Project3,
+        title: "Clustering of Exit Slips Responses",
+        category: "Thesis",
+        tools: ["Machine Learning","NLP", "SBERT", "Clustering","K-Means", "Python", "Plotly", "numpy", "pandas", "pytorch"],
+        link: "https://hai-mi.de/jap_memory.html"
+    }
 ];
 
 export const projectsNav = [
@@ -32,4 +40,7 @@ export const projectsNav = [
     {
         name: "Website",
     },
+    {
+        name: "Thesis"
+    }
 ];

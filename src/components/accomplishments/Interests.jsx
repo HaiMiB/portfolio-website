@@ -27,14 +27,16 @@ const Interests = () => {
                 <p className='accomplishments__point'> <MdCircle/> Digital Filmfestival</p>
                 <p className='accomplishments__point'> <MdCircle/> Jahresfest Deutschlandstipendium</p>
               </div>
-
-
-
-
-              Being a buddy for a an international student
+              Being a buddy for an international student
             </div>
           </div>
         </div>
+       {/*  <div className="accomlisments__data">
+          <div>
+            <span className="accomplishments__name interests__name">3. Playing the ukulele</span>
+            <div className='accomplishments__info interests__info'>Just a hobby ukulele player.</div>
+          </div>
+        </div> */}
       </div>
     </div>
   )

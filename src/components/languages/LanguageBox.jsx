@@ -12,14 +12,14 @@ const LanguageBox = () => {
                     <div className="language__data">
                         <HiCheckBadge />
                         <div>
-                            <span className="language__name">English</span>
+                            <span className="language__name">German</span>
                             {/* <span className="language__level">Basic</span> */}
                         </div>
                     </div>
                     <div className="language__data">
                         <HiCheckBadge />
                         <div>
-                            <span className="language__name">German</span>
+                            <span className="language__name">English</span>
                         </div>
                     </div>
                     <div className="language__data">
@@ -46,7 +46,7 @@ const LanguageBox = () => {
                     <div className="language__data">
                         <div>
                             <span className="language__rating">
-                                B2/C1
+                                C1
                             </span>
                         </div>
                     </div>
