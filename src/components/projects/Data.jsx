@@ -26,7 +26,7 @@ export const projectsData = [
         title: "Clustering of Exit Slips Responses",
         category: "Thesis",
         tools: ["Machine Learning","NLP", "SBERT", "Clustering","K-Means", "Python", "Plotly", "numpy", "pandas", "pytorch"],
-        link: "https://hai-mi.de/jap_memory.html"
+        link: ""
     }
 ];
 
