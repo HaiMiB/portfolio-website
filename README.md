@@ -12,8 +12,3 @@ Technologien: HTML, CSS, JavaScript, React, Node.js.
 **Responsive Design:** Optimiert für verschiedene Geräte und Bildschirmgrößen.
 
 **Ergebnisse:** Erhöhte Sichtbarkeit meiner Fähigkeiten und Projekte, positive Rückmeldungen von potenziellen Arbeitgebern und Kunden.
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
